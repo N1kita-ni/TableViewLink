@@ -15,6 +15,7 @@ class ImageCellViewController: UIViewController {
         super.viewDidLoad()
         let rightButton: UIBarButtonItem = UIBarButtonItem(title: "share", style: .done, target: self, action: #selector(shareButton))
         navigationItem.rightBarButtonItem = rightButton
+        print("hello")
     }
     
     @objc func shareButton() {
